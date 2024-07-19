@@ -1,15 +1,26 @@
+import NavbarM from "@/components/NavbarM";
 import Image from "next/image";
+import 'bootstrap/dist/css/bootstrap.css';
 
+import "./globals.css";
+import Hero from "@/components/Hero";
+import Footer from "@/components/Footer";
+import ButtonR from "@/components/buttonr";
+import Map from "@/components/Map";
+import CarouselComponent from "@/components/Carousel";
+import Court from "@/components/Court";
+import Init from "@/components/Init";
 export default function Home() {
   return (
   <>
-  <div className=" text-center justify-center p-20 mt-24">
-  <Image className="m-auto" src="./images/logo.svg" width={1000} height={1000} alt="Padel Factory Courts"/>
-
-  <h1 className="mt-14 txt font-bold text-4xl ">Coming soon...</h1>
-  
-  </div>
-  
+  <NavbarM/>
+  <Hero/>
+  <Court/>
+  <Init/>
+  <CarouselComponent/>
+  <Map/>
+  <Footer/>
+  <ButtonR/>
   </>
   );
 }
