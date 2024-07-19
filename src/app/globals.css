@@ -155,7 +155,9 @@
   font-style: italic;
   font-weight: 700;
   color: #3dc6f3;
-  line-height: 0 !important;
+  line-height: 1 !important;
+  margin-left: 5px;
+  margin-right: 5px;
 
 }
 
@@ -248,7 +250,7 @@ color: #ee3e45;
 
   .logo{
     width: auto;
-    height: 60px;
+    height: 50px;
     
   }
 
