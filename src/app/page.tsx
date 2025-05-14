@@ -10,17 +10,11 @@ import Map from "@/components/Map";
 import CarouselComponent from "@/components/Carousel";
 import Court from "@/components/Court";
 import Init from "@/components/Init";
+import MinimalContact from "@/components/Contact";
 export default function Home() {
   return (
   <>
-  <NavbarM/>
-  <Hero/>
-  <Court/>
-  <Init/>
-  <CarouselComponent/>
-  <Map/>
-  <Footer/>
-  <ButtonR/>
+  <MinimalContact/>
   </>
   );
 }
